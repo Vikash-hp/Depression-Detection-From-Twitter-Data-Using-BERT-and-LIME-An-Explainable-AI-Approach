@@ -151,6 +151,16 @@ datasets</code></pre>
   </div>
 
   <div class="section">
+   >📊 Output screenshots</h2>
+    <ul>
+      <li><strong>Confusion Matrix:</strong></li>
+      <img src="images/lime_output.png" alt="LIME Explanation Screenshot" style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
+      <li><strong>Classification and LIME Explaination:</strong></li>
+      <img src="images/lime_output.png" alt="LIME Explanation Screenshot" style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
+    </ul>
+  </div>
+
+  <div class="section">
     <h2>⚠️ Limitations</h2>
     <ul>
       <li>Performance depends on dataset quality and size</li>
