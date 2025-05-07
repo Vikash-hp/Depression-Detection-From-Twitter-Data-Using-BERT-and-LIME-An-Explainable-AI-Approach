@@ -3,62 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Depression Detection From Twitter Data Using BERT and LIME: An Explainable AI Approach</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-      padding: 20px;
-      max-width: 960px;
-      margin: auto;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    code {
-      background: #eee;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-    pre {
-      background: #272822;
-      color: #f8f8f2;
-      padding: 15px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    .highlight {
-      background: #ecf0f1;
-      padding: 15px;
-      border-left: 5px solid #2980b9;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    hr {
-      border: 0;
-      height: 1px;
-      background: #ddd;
-    }
-  </style>
 </head>
 <body>
 
-  <h1>🧠 Depression Detection From Twitter Data Using BERT and LIME: An Explainable AI Approach</h1>
+  <h1>Depression Detection From Twitter Data Using BERT and LIME: An Explainable AI Approach</h1>
 
   <div class="section">
     <p>This project implements a depression detection system using <strong>BERT</strong> for classification and <strong>LIME</strong> for explainability. It analyzes tweets to determine if a user is likely experiencing depression, with visual interpretations for transparency.</p>
@@ -92,7 +40,7 @@ lime
 evaluate
 datasets</code></pre>
     <p>Install with:</p>
-    <pre><code>pip instal -r requirements.txt</code></pre>
+    <pre><code>pip install -r requirements.txt</code></pre>
   </div>
 
   <div class="section">
@@ -112,6 +60,7 @@ datasets</code></pre>
 ├── Dataset/Training dataset/Training.csv
 ├── Dataset/Testing dataset/user_tweets.csv
 ├── requirements.txt
+├── images
 ├── README.md
 </code></pre>
   </div>
@@ -125,7 +74,7 @@ datasets</code></pre>
       <li>Install dependencies:<br>
         <pre><code>pip install -r requirements.txt</code></pre>
       </li>
-      <li>Add <code>Training.csv and user_tweets.csv</code> to the project root.</li>
+      <li>Add <code>Training.csv</code> and <code>user_tweets.csv</code> to the project root.</li>
       <li>Run <code>Code.ipynb</code> in Jupyter Notebook or JupyterLab.</li>
     </ol>
   </div>
@@ -142,21 +91,21 @@ datasets</code></pre>
   </div>
 
   <div class="section">
-   >📊 Example Outputs</h2>
+    <h2>📊 Example Outputs</h2>
     <ul>
       <li><strong>Classification Report:</strong> Precision, Recall, F1-score</li>
       <li><strong>Confusion Matrix:</strong> Visual of prediction accuracy</li>
-      <li><strong>LIME:</strong> Highlights influential words per tweet</li>
+      <li><strong>LIME Explanations:</strong> Graphically represent tweets that contribute to the model's predictions.</li>
     </ul>
   </div>
 
   <div class="section">
-   >📊 Output screenshots</h2>
+    <h2>📸 Output Screenshots</h2>
     <ul>
       <li><strong>Confusion Matrix:</strong></li>
-      <img src="images/confusion matrix" alt="confusion matrix loading..." style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
-      <li><strong>Classification and LIME Explaination:</strong></li>
-      <img src="images/classifaction and lime explaination" alt="LIME Explanation loading..." style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
+      <img src="images/confusion matrix.png" alt="confusion matrix loading..." style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
+      <li><strong>Classification and LIME Explanation:</strong></li>
+      <img src="images/classification and lime explanation.png" alt="LIME Explanation loading..." style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
     </ul>
   </div>
 
@@ -178,18 +127,24 @@ datasets</code></pre>
       <li>Deploy as a web app</li>
     </ul>
   </div>
+
   <div class="section">
-    <h2> Supervised By</h2>
-    <li> Dr. Jyoti Prakash Singh, Associate Professor, CSE, NIT Patna</li>
-    <h2>Contributed By</h2>
-    <li>Shivani Saroj, CSE, NIT Patna</li>
-    <li>Gyan Ranjan Nayak, CSE, NIT Patna</li>
+    <h2>👨‍🏫 Supervised By</h2>
+    <ul>
+      <li>Dr. Jyoti Prakash Singh, Associate Professor, CSE, NIT Patna</li>
+    </ul>
+    <h2>👨‍💻 Contributed By</h2>
+    <ul>
+      <li>Shivani Saroj, CSE, NIT Patna</li>
+      <li>Gyan Ranjan Nayak, CSE, NIT Patna</li>
+    </ul>
   </div>
+
   <div class="section">
-    <h2>🤝 For more Contribution</h2>
+    <h2>🤝 For More Contribution</h2>
     <ol>
       <li>Fork the repo</li>
-      <li>Create a feature branch: <code> checkout -b feature/your-feature</code></li>
+      <li>Create a feature branch: <code>git checkout -b feature/your-feature</code></li>
       <li>Commit your changes: <code>git commit -m 'Add your feature'</code></li>
       <li>Push: <code>git push origin feature/your-feature</code></li>
       <li>Open a Pull Request</li>
