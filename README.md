@@ -125,7 +125,7 @@ datasets</code></pre>
       <li>Install dependencies:<br>
         <pre><code>pip install -r requirements.txt</code></pre>
       </li>
-      <li>Add <code>Training.csv</code> to the project root.</li>
+      <li>Add <code>Training.csv and user_tweets.csv</code> to the project root.</li>
       <li>Run <code>Code.ipynb</code> in Jupyter Notebook or JupyterLab.</li>
     </ol>
   </div>
