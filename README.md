@@ -107,7 +107,7 @@ datasets</code></pre>
 
   <div class="section">
     <h2>📂 Project Structure</h2>
-    <pre><code>Depression Detection From Twitter Data Using BERT and LIME: An Explainable AI Approach/
+    <pre><code>Depression-Detection-From-Twitter-Data-Using-BERT-and-LIME-An-Explainable-AI-Approach/
 ├── Code/Code.ipynb
 ├── Dataset/Training dataset/Training.csv
 ├── Dataset/Testing dataset/user_tweets.csv
@@ -120,8 +120,7 @@ datasets</code></pre>
     <h2>🚀 Usage</h2>
     <ol>
       <li>Clone the repo:<br>
-        <pre><code>git clone https://github.com/your-username/interpretable-depression-detection.git
-cd interpretable-depression-detection</code></pre>
+        <pre><code>https://github.com/Vikash-hp/Depression-Detection-From-Twitter-Data-Using-BERT-and-LIME-An-Explainable-AI-Approach.git</code></pre>
       </li>
       <li>Install dependencies:<br>
         <pre><code>pip install -r requirements.txt</code></pre>
@@ -169,9 +168,15 @@ cd interpretable-depression-detection</code></pre>
       <li>Deploy as a web app</li>
     </ul>
   </div>
-
   <div class="section">
-    <h2>🤝 Contributing</h2>
+    <h2> Supervised By</h2>
+    <li> Dr. Jyoti Prakash Singh, Associate Professor, CSE, NIT Patna</li>
+    <h2>Contributed By</h2>
+    <li>Shivani Saroj, CSE, NIT Patna</li>
+    <li>Gyan Ranjan Nayak, CSE, NIT Patna</li>
+  </div>
+  <div class="section">
+    <h2>🤝 For more Contribution</h2>
     <ol>
       <li>Fork the repo</li>
       <li>Create a feature branch: <code> checkout -b feature/your-feature</code></li>
@@ -182,13 +187,8 @@ cd interpretable-depression-detection</code></pre>
   </div>
 
   <div class="section">
-    <h2>📄 License</h2>
-    <p>This project is licensed under the MIT License. See <code>LICENSE</code> for more.</p>
-  </div>
-
-  <div class="section">
     <h2>📬 Contact</h2>
-    <p>For questions, open an issue or contact <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+    <p>For questions, open an issue or contact <a href="mailto:vikash2206133@gmail.com">vikash2206133@gmail.com</a>.</p>
   </div>
 
   <hr/>
