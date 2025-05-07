@@ -154,9 +154,9 @@ datasets</code></pre>
    >📊 Output screenshots</h2>
     <ul>
       <li><strong>Confusion Matrix:</strong></li>
-      <img src="images/lime_output.png" alt="LIME Explanation Screenshot" style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
+      <img src="images/confusion matrix" alt="confusion matrix loading..." style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
       <li><strong>Classification and LIME Explaination:</strong></li>
-      <img src="images/lime_output.png" alt="LIME Explanation Screenshot" style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
+      <img src="images/classifaction and lime explaination" alt="LIME Explanation loading..." style="max-width:100%; border:1px solid #ccc; border-radius:8px; margin-top:10px;">
     </ul>
   </div>
 
